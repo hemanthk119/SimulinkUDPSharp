@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>SimulinkUDPSharp</Title>
+    <Authors>Hemanth Kothoju</Authors>
+    <Description>This library allows to offset a part of processing from SimuLink (MATLAB) to .NET using two-way UDP Data transfer.</Description>
+    <Copyright>Copyright (c) 2024 Hemanth Kothoju</Copyright>
+    <PackageProjectUrl>https://github.com/hemanthk119/SimulinkUDPSharp</PackageProjectUrl>
+    <PackageIcon>logo.png</PackageIcon>
+    <RepositoryType>https://github.com/hemanthk119/SimulinkUDPSharp</RepositoryType>
+    <PackageTags>Simulink; MATLAB; UDP Blocks; UDP Block; Simscape</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
